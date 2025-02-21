@@ -280,7 +280,7 @@ a.avatar-wrapper {
 }
 
 /* 假设 PoweredBy 组件的父元素是 .footer */
-#wrapper > div.hidden.md\:block.relative.z-10 > div > footer > div.text-xs.font-serif {
+.text-xs.font-serif {
   display: none;
 }
 
