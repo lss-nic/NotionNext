@@ -279,9 +279,8 @@ a.avatar-wrapper {
   }
 }
 
-/* 全局 CSS 中隐藏 PoweredBy 组件 */
 /* 假设 PoweredBy 组件的父元素是 .footer */
-.footer .powered-by {
+#wrapper > div.hidden.md\:block.relative.z-10 > div > footer > div.text-xs.font-serif {
   display: none;
 }
 
