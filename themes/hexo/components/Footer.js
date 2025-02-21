@@ -11,7 +11,7 @@ const Footer = ({ title }) => {
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   // 控制是否显示 PoweredBy
-  const showPoweredBy = false;  // 设置为 false 即可隐藏
+  const showPoweredBy = true;  // 设置为 false 即可隐藏
   
   return (
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
