@@ -279,11 +279,6 @@ a.avatar-wrapper {
   }
 }
 
-/* 假设 PoweredBy 组件的父元素是 .footer */
-.text-xs.font-serif {
-  display: none;
-}
-
 img {
   display: unset;
 }
