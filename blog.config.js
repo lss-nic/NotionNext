@@ -23,6 +23,10 @@ const BLOG = {
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
+  // 微软 Clarity 站点分析
+  CLARITY_ID: process.env.NEXT_PUBLIC_CLARITY_ID || 'qd5s8jbe3q', // 只需要复制Clarity脚本中的ID部分，ID是一个十位的英文数字组合
+
+  
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
