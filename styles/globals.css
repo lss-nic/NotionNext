@@ -280,10 +280,10 @@ a.avatar-wrapper {
 }
 
 /* 全局 CSS 中隐藏 PoweredBy 组件 */
-footer .powered-by {
+/* 假设 PoweredBy 组件的父元素是 .footer */
+.footer .powered-by {
   display: none;
 }
-
 
 img {
   display: unset;
