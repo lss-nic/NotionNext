@@ -37,6 +37,19 @@ const BLOG = {
   IMG_SHADOW: process.env.NEXT_PUBLIC_IMG_SHADOW || false, // 文章图片是否自动添加阴影
   IMG_COMPRESS_WIDTH: process.env.NEXT_PUBLIC_IMG_COMPRESS_WIDTH || 800, // Notion图片压缩宽度
 
+  // 樱花飘落特效
+SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
+
+// 漂浮线段特效
+NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
+
+// 动态彩带特效
+FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, // 开关
+// 静态彩带特效
+RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
+
+// 星空雨特效 黑夜模式才会生效
+STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
   
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
