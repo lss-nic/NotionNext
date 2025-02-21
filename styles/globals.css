@@ -279,6 +279,11 @@ a.avatar-wrapper {
   }
 }
 
+/* 全局 CSS 中隐藏 PoweredBy 组件 */
+footer div:has(a[href*="github.com/tangly1024/NotionNext"]) {
+  display: none;
+}
+
 img {
   display: unset;
 }
